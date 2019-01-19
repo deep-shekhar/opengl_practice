@@ -1,0 +1,13 @@
+﻿D:\visual_studio\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets(173,5): error MSB3061: Unable to delete file "Debug\2D_VISUALIZATION.tlog\2D_VISUALIZATION.lastbuildstate". Access to the path 'D:\PLOTTING_OPENGL\2D_VISUALIZATION\Debug\2D_VISUALIZATION.tlog\2D_VISUALIZATION.lastbuildstate' is denied.
+
+Project Performance Summary:
+        4 ms  D:\PLOTTING_OPENGL\2D_VISUALIZATION\2D_VISUALIZATION.vcxproj   1 calls
+                  4 ms  Clean                                      1 calls
+
+Target Performance Summary:
+        2 ms  _PrepareForClean                           1 calls
+        2 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+
+Task Performance Summary:
+        0 ms  Message                                    2 calls
+        1 ms  Delete                                     1 calls
