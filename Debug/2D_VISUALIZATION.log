@@ -1,13 +1,40 @@
-﻿D:\visual_studio\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets(173,5): error MSB3061: Unable to delete file "Debug\2D_VISUALIZATION.tlog\2D_VISUALIZATION.lastbuildstate". Access to the path 'D:\PLOTTING_OPENGL\2D_VISUALIZATION\Debug\2D_VISUALIZATION.tlog\2D_VISUALIZATION.lastbuildstate' is denied.
+﻿D:\visual_studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(321,5): error MSB3491: Could not write lines to file "Debug\2D_VISUALIZATION.tlog\2D_VISUALIZATION.lastbuildstate". Access to the path 'D:\PLOTTING_OPENGL\2D_VISUALIZATION\Debug\2D_VISUALIZATION.tlog\2D_VISUALIZATION.lastbuildstate' is denied.
 
 Project Performance Summary:
-        4 ms  D:\PLOTTING_OPENGL\2D_VISUALIZATION\2D_VISUALIZATION.vcxproj   1 calls
-                  4 ms  Clean                                      1 calls
+       17 ms  D:\PLOTTING_OPENGL\2D_VISUALIZATION\2D_VISUALIZATION.vcxproj   1 calls
+                 17 ms  Build                                      1 calls
 
 Target Performance Summary:
-        2 ms  _PrepareForClean                           1 calls
-        2 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  GetResolvedWinMD                           1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  _CheckWindowsSDKInstalled                  1 calls
+        0 ms  PrepareProjectReferences                   1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  _PrepareForReferenceResolution             1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  SetCABuildNativeEnvironmentVariables       1 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+        1 ms  InitializeBuildStatus                      1 calls
+        1 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        1 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+        1 ms  PlatformPrepareForBuild                    1 calls
+        2 ms  SetTelemetryEnvironmentVariables           1 calls
+        4 ms  PrepareForBuild                            1 calls
+        4 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
 
 Task Performance Summary:
         0 ms  Message                                    2 calls
-        1 ms  Delete                                     1 calls
+        0 ms  ReadLinesFromFile                          1 calls
+        1 ms  MakeDir                                    2 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+        1 ms  WriteLinesToFile                           1 calls
+        1 ms  MSBuild                                    1 calls
+        2 ms  SetEnv                                     8 calls
